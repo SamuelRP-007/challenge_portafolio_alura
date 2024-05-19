@@ -1,0 +1,321 @@
+/*header*/
+header{ 
+  width: 1,136;
+  height: 88px;
+  justify-content:space-between;
+  padding: 32px 0px 32px 0px;
+/*Zona del titulo y apartadoos*/
+}
+.title{
+    padding: 0px 0 0 40px;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    font-family:sans-serif;
+    color: rgb(70, 70, 70);
+}
+.nav1{
+ 
+    position: absolute;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 25px 30px  ;
+    font-family:sans-serif;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(70, 70, 70);
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #b6cee9;
+    text-decoration: underline;
+}
+.correo-letra{
+    font-weight: bold; 
+}
+/*segundo apartado*/
+.texto-presentacion{
+       width: 1,136px;
+       height: 368px;
+       display: flex;
+       justify-content: space-between;
+}
+.profile-picture{
+        width: 350px; 
+        height: 300px; 
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-right: 300px;
+}
+.cuadro-de-texto{
+    width: 900px;
+    height: 368px;
+   padding: 60px ;
+}
+.texto-presentacion h1{
+ text-align: center;
+ font-weight: bold;
+ font-size: 50px;
+ padding: 0 0 20px;
+ font-family:Arial, Helvetica, sans-serif ;
+ color: rgb(70, 70, 70);
+}
+.texto-presentacion p{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(70, 70, 70);
+}
+/*apartado de redes*/
+.redes{
+    width: 1,136px;
+    height: 50px;
+}
+.redes ul{
+    display: flex;
+    font-size: 27px;
+    margin-left: 20%; 
+    padding: 5%;  
+    color: burlywood;
+}
+.redes li{
+    padding: 0px 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+}
+.redes ul a:hover{
+    color: #1032bc;
+    text-decoration: underline;
+}
+/*apartado sobre mi*/
+
+.mi{
+    width: 1,440px;
+    height: 383px;
+    padding: 64px;
+    gap: 10px;
+}
+.sobre-mi{
+    width: 1,136;
+    height: 255px;
+    gap: 16px;
+}
+.sobre-mi h1{
+ font-weight: bold;
+ font-size: 40px;
+ padding: 0 0 20px;
+ font-family:Arial, Helvetica, sans-serif ;
+ color: rgb(70, 70, 70);
+}
+.sobre-mi p{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(70, 70, 70);
+}
+/*area de skills*/
+.skills{
+    width: 1,440px;
+    height: 1,245px;
+    gap: 88px;
+}
+.skills-h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    font-family: raleway;
+    line-height: 37.57px;
+}
+.area-skills{
+    width: 1,136px;
+    height: 244px;
+    gap: 32px;
+    display: flex;
+    margin-left: 15%;
+}
+.html{
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    gap: 8px;
+   border-radius: 20px;
+    
+}
+.html img{
+    width: 50px;
+    height: 60px;
+    margin-top: 50%;
+    margin-left: 20px;
+}
+.html h1{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: raleway;
+    line-height: 18.78px;
+    margin: -15px;
+    margin-left: 2px;
+}/*area depasatiempos*/
+.area-pasatiempos{
+    width: 1,136px;
+    height: 244px;
+    gap: 32px;
+    display: flex;
+    margin-left: 15%;
+}
+.pasatiempos{
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    gap: 8px;
+   border-radius: 20px;
+}
+.pasatiempos-h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    font-family: raleway;
+    line-height: 37.57px;
+}
+.pasatiempos img{
+    width: 50px;
+    height: 60px;
+    margin-top: 50%;
+    margin-left: 20px;
+}
+.pasatiempos h1{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: raleway;
+    line-height: 18.78px;
+    margin: -15px;
+    margin-left: 2px;
+}
+/*formacion academica*/
+.formacion{
+    font-family: Raleway;
+font-size: 32px;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+}
+.area-formacion{
+    margin-left: 10%;
+    width: 1,440px;
+    height: 581px;
+    padding: 82px;
+    gap: 32px;
+    display: flex;
+}
+.academica{
+     width: 368px;
+     height: 347px;
+     gap: 8px;
+     opacity: 0px;
+   border-radius: 20px;
+}
+.academica img{
+    
+    width: 192px;
+  height: 130px;
+  margin-top: 25%;
+  margin-left: 25%;
+
+}
+.academica h1{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: raleway;
+    line-height: 18.78px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Profecional{
+    width: 1,136px;
+   height:  1,816px;
+   gap: 64px;
+  opacity: 0px;
+}
+.experiencia{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.juegos{
+    width: 1,136px;
+    height: 406px;
+    gap: 16px;
+}
+.juegos img{
+    width: 800px;
+    text-align: center;
+    margin-left: 25%;
+    padding: 20px  20px 20px 20px;
+}
+.ahorcado{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15%;
+}
+.encriptado{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+}
+/*telefono*/
+.contacto{
+    width: 1,136px;
+    height: 660px;
+    padding: 64px 0px 0px 0px;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+}
+.telefono{
+    width: 464px;
+height: 593px;
+gap: 0px;
+opacity: 0px;
+}
+.informacion input{
+    padding: 30px 30px 30px 40px;
+    width: 350px;
+    border-radius: 150px;
+}
+.nombre{
+    padding: 20px 20px 20px 20px;
+}
+.email{
+    padding: 20px 20px 20px 20px;
+}
+.asunto{
+    padding: 20px 20px 20px 20px;
+}
+.mensaje{
+    padding: 20px 20px 20px 20px;
+}
+main{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: #fdfeff;
+    padding: 0px 0px 200px;
+    margin-top: 150px;
+}
+main p{
+    font-size: 20px;
+    font-weight: bold;
+}
